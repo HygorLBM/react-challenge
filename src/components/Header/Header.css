@@ -1,0 +1,35 @@
+.header-background {
+    display: grid;
+    width: 100vw;
+    height: 10vh;
+    background-color: #B22222;
+    justify-content: space-around;
+    grid-template-columns:  70vw 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.header-title {
+    font-family:'Serif';
+    padding-left: 0.5em;
+    padding-top: 0.2em;
+    font-size: 3.9em;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-end: 2;
+    font-weight: 600;
+    color:white;
+}
+
+.header-author {
+    font-family: 'Garamond';
+    font-size: 1.9em;
+    padding-right: 0.25em;
+    padding-bottom: 1em;
+    font-weight: 200;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    color: goldenrod;
+}

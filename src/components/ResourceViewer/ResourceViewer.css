@@ -1,0 +1,37 @@
+.whole-resource-viewer {
+    display: grid;
+    height: 45vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1.08fr) 0.6fr;
+}
+
+.viewer {
+    grid-row-start:1;
+    grid-column-start: 1;
+    grid-row-end:  6;
+    grid-column-end: 5;
+    background-color: white;
+}
+
+.searcher{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-template-columns: 2fr 0.7fr 0.3fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+}
+
+.search-text{
+    width: 50%;
+}
+
+.search-button{
+    width: 10%;
+}
+
+.search-parameter-select{
+    width: 40%;
+}

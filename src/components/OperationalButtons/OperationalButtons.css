@@ -1,0 +1,8 @@
+.whole-operational-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-or-remove-resource {
+    display: flex;
+}
