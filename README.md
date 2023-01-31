@@ -11,8 +11,4 @@ This is part of a Spring+React test in order to present basic skills in this sta
  
  ### Check the H2 database at http://localhost:8080/h2-ui 
  
- ### Other info
- This projects currently lacks unit tests. 
- It will be added soon using JUnit + Mockito 
- 
  
